@@ -1,0 +1,195 @@
+
+[12-Jan-2024 17:45:09 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:45:11 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:45:23 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:45:25 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:46:05 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:46:08 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:46:14 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:46:59 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:47:04 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:47:19 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:47:31 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:47:38 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:48:37 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:48:50 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:50:15 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:50:56 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:51:00 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:51:10 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:51:12 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:51:12 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:51:24 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:51:54 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:53:00 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:53:12 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:53:17 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:53:34 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:53:50 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:53:54 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:54:21 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:54:41 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:54:51 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:55:23 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:58:00 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:58:02 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:58:19 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:58:35 Europe/Berlin] Hello, errors!
+[12-Jan-2024 17:58:39 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:25 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:27 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:38 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:42 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:44 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:46 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:49 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:50 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:51 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:54 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:23:56 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:08 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:11 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:11 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:13 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:19 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:29 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:33 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:34 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:35 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:40 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:51 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:55 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:24:56 Europe/Berlin] Hello, errors!
+[12-Jan-2024 18:29:43 Europe/Berlin] Hello, errors!
+[12-Jan-2024 21:59:10 Europe/Berlin] Hello, errors!
+[12-Jan-2024 21:59:10 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 21:59:26 Europe/Berlin] Hello, errors!
+[12-Jan-2024 21:59:26 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 21:59:38 Europe/Berlin] Hello, errors!
+[12-Jan-2024 21:59:38 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:00:01 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:00:01 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:00:16 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:00:16 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:00:22 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:00:22 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:01:03 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:01:04 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:01:13 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:01:13 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:01:18 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:01:18 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:02:31 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:02:31 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al conectar a la base de datos: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php:24
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoExamenFinal\models\User_model.php(7): ConexionDB::get_ObtenerConexion()
+#1 C:\xampp\htdocs\ProyectoExamenFinal\controllers\User_controller.php(15): User->__construct()
+#2 C:\xampp\htdocs\ProyectoExamenFinal\index.php(26): ControllerUser->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\ProyectoExamenFinal\models\ConexionDB_model.php on line 24
+[12-Jan-2024 22:07:11 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:07:13 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:07:23 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:07:28 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:07:30 Europe/Berlin] Hello, errors!
+[12-Jan-2024 22:07:32 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:48:05 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:48:08 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:48:22 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:48:25 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:48:51 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:48:55 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:11 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:23 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:25 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:41 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:44 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:46 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:47 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:55 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:57 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:50:59 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:51:02 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:51:04 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:51:09 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:51:17 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:53:57 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:56:54 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:56:56 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:10 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:12 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:15 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:16 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:18 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:19 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:22 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:57:24 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:59:09 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:59:12 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:59:13 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:59:27 Europe/Berlin] Hello, errors!
+[13-Jan-2024 05:59:30 Europe/Berlin] Hello, errors!
+[13-Jan-2024 06:00:21 Europe/Berlin] Hello, errors!
+[13-Jan-2024 06:00:22 Europe/Berlin] Hello, errors!
+[13-Jan-2024 06:00:26 Europe/Berlin] Hello, errors!
+[13-Jan-2024 06:00:28 Europe/Berlin] Hello, errors!
+[13-Jan-2024 06:00:46 Europe/Berlin] Hello, errors!
+[13-Jan-2024 06:00:58 Europe/Berlin] Hello, errors!
+[19-Jan-2024 02:21:43 Europe/Berlin] Hello, errors!
+[19-Jan-2024 02:21:47 Europe/Berlin] Hello, errors!
+[19-Jan-2024 02:21:49 Europe/Berlin] Hello, errors!
+[19-Jan-2024 02:21:50 Europe/Berlin] Hello, errors!
